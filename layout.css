@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+body{
+    background-color: #FCBF49;
+}
+h1 {
+    font-family: "Bad Script", cursive;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: rgb(30, 112, 220);
+    /* background-color: rgb(84, 84, 84); */
+    text-shadow: rgb(0, 0, 0) 2px 2px 4px;
+}
+
+.home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#home-para {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#home-page {
+    text-align: center;
+}
+.form{
+    padding-bottom: 5%;
+    max-width: 400px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+}
+.img-row{
+    max-width: 450px;
+    max-height: 300px;
+}
+#bikini{
+    height: 300px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.img-row2{
+    max-width: 450px;
+    max-height: 300px;
+}
