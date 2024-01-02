@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <div class="nav-bar">
+        <a href="p1.html" id="page1">Home</a>
+        <a href="p2.html" id="page2">Submit</a>
+        <a href="p3.html" id="page3">Usfull links</a>
+        <a href="p4.html" id="page4">images</a>
+    </div>
+</head>
+
+<body>
+<h1>your thoughts...</h1>
+    <form class="form">
+        <fieldset>
+            <p> Choose your pavorite character:</p>
+            <div>
+                <input type="radio" id="peter" name="fav-character" value="Peter">
+                <label for="peter">Peter</label>
+            </div>
+            <div>
+                <input type="radio" id="Louis" name="fav-character" value="Louis">
+                <label for="Louis">Louis</label>
+            </div>
+            <div>
+                <input type="radio" id="chris" name="fav-character" value="Chris">
+                <label for="chris">Chris</label>
+            </div>
+            <div>
+                <input type="radio" id="meg" name="fav-character" value="Meg">
+                <label for="meg">Meg</label>
+            </div>
+            <script>
+                document.getElementById('meg').addEventListener('change', function () {
+                    if (this.checked) {
+                        this.checked = false; // Deselect the radio button
+                    }
+                });
+            </script>
+            <div>
+                <input type="radio" id="stewi" name="fav-character" value="Stewi">
+                <label for="stewi">Stewi</label>
+            </div>
+            <div>
+                <input type="radio" id="brian" name="fav-character" value="Brian">
+                <label for="brian">Brian</label>
+            </div>
+            <p>Write about your funniest scene in the show:</p>
+            <div>
+                <textarea id="fav-scene" name="fav-scene" placeholder="The funniest scene..."></textarea>
+            </div>
+            <p>Write about your best episode:</p>
+            <div>
+                <textarea id="fav-episode" name="fav-episode" placeholder="My favorite episode..."></textarea>
+            </div>
+            <p>mark all the seasons you have watched fully. lets see who is the biggest fan of the show: </p>
+            <div>
+                <input type="checkbox" id="1" name="season-watched" value="1">
+                <label for="1">1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="2" name="season-watched" value="2">
+                <label for="2">2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="3" name="season-watched" value="3">
+                <label for="3">3</label>
+            </div>
+            <div>
+                <input type="checkbox" id="4" name="season-watched" value="4">
+                <label for="4">4</label>
+            </div>
+            <div>
+                <input type="checkbox" id="5" name="season-watched" value="5">
+                <label for="5">5</label>
+            </div>
+            <div>
+                <input type="checkbox" id="6" name="season-watched" value="6">
+                <label for="6">6</label>
+            </div>
+            <div>
+                <input type="checkbox" id="7" name="season-watched" value="7">
+                <label for="7">7</label>
+            </div>
+            <div>
+                <input type="checkbox" id="8" name="season-watched" value="8">
+                <label for="8">8</label>
+            </div>
+            <div>
+                <input type="checkbox" id="9" name="season-watched" value="9">
+                <label for="9">9</label>
+            </div>
+            <div>
+                <input type="checkbox" id="10" name="season-watched" value="10">
+                <label for="10">10</label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
